@@ -31,7 +31,7 @@ An easy way to create tests is using the Playwright recorder:
 ./CarvedRock.End2End.Tests/bin/Debug/net9.0/playwright.ps1 codegen https://localhost:7224
 ```
 
-You can also install the [Plawright CRX](https://chromewebstore.google.com/detail/playwright-crx/jambeljnbnfbkcpnoiaedcabbgmnnlcd) extension from
+You can also install the [Playwright CRX](https://chromewebstore.google.com/detail/playwright-crx/jambeljnbnfbkcpnoiaedcabbgmnnlcd) extension from
 the Chrome Web Store to have it "always available"
 without needing to run the above command.
 
