@@ -1,7 +1,7 @@
-# Playwright End-to-End Tests
+# wright End-to-End Tests
 
 This solution / project is a collection of end-to-end tests
-using the [Playwright](https://playwright.dev/) framework and
+using the [playwright](https://playwright.dev/) framework and
 the NUnit testing framework.
 
 ## Getting Started
@@ -67,7 +67,7 @@ dotnet test
 To target a specific browser, use `chromium`, `firefox`, or `webkit` as an argument to dotnet test as shown below:
 
 ```bash
-dotnet test -- Playwright:browser=chromium
+dotnet test -- wright:browser=chromium
 ```
 
 #### Parameters from the Command Line
@@ -90,7 +90,7 @@ against remote URLs (you would need to provide your own URLs if you
 deploy the app somewhere):
 
 ```bash
-dotnet test --% -- TestRunParameters.Parameter(name=\"BaseUrl\", value=\"https://carvedrock-webapp.whiteglacier-d72dac78.eastus2.azurecontainerapps.io\") TestRunParameters.Parameter(name=\"ApiUrl\", value=\"https://carvedrock-api.whiteglacier-d72dac78.eastus2.azurecontainerapps.io\") Playwright.BrowserName=webkit
+dotnet test --% -- TestRunParameters.Parameter(name=\"BaseUrl\", value=\"https://carvedrock-webapp.whiteglacier-d72dac78.eastus2.azurecontainerapps.io\") TestRunParameters.Parameter(name=\"ApiUrl\", value=\"https://carvedrock-api.whiteglacier-d72dac78.eastus2.azurecontainerapps.io\") wright.BrowserName=webkit
 ```
 
 ## Using `.runsettings` Files
